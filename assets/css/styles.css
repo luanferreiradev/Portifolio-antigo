@@ -402,6 +402,12 @@ img{
 }
 
 /*==================== ABOUT ====================*/
+.about__container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os elementos */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
 .about__img{
     width: 200px;
     border-radius: .5rem;
